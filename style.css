@@ -1,0 +1,19 @@
+h1{
+  font-family: 'Yellowtail', cursive;
+
+}
+
+h2{
+  background-image: url("img/hr-img.png");
+  background-repeat: x;
+  
+}
+#blog{
+  font-family: 'Krub', sans-serif;
+  display: inline-block;
+  color:lightslategrey;
+  font-size: 11px;
+  position: relative;
+  /* top: 11px; left: -135px; */
+}
+
