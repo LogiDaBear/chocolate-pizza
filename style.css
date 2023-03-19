@@ -15,11 +15,11 @@ h1{
 h2{
   background-image: url("img/hr-img.png");
   background-repeat: x;
- 
+}
 h3{
   font-family: 'Yellowtail', cursive;
 }  
-}
+
 #blog{
   font-family: 'Krub', sans-serif;
   display: inline-block;
