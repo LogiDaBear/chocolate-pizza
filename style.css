@@ -1,13 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 h1{
   font-family: 'Yellowtail', cursive;
+  font-size: 40px;
 
 }
 
 h2{
   background-image: url("img/hr-img.png");
   background-repeat: x;
-  
 }
+h3{
+  font-family: 'Yellowtail', cursive;
+}  
+
 #blog{
   font-family: 'Krub', sans-serif;
   display: inline-block;
@@ -17,3 +29,48 @@ h2{
   /* top: 11px; left: -135px; */
 }
 
+header{
+  width: 80%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+  align-content: center;
+  border: 2px solid red;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  border: 2px solid red;
+}
+
+.column {
+  float: left;
+  width: 50%;
+ }
+ /* Clear floats after the columns */
+ .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  text-align: center;
+}
